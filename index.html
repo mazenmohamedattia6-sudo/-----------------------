@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بيتنا 🏠</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div class="neb neb-1"></div>
+<div class="neb neb-2"></div>
+
+<div class="page">
+  <header class="header">
+    <span class="eyebrow">بيتنا اللي بحلم بيه</span>
+    <h1 class="title">بيتنا 🏠</h1>
+    <p class="header-sub">كل الأوض مطفية… دوسي على أي أوضة تنوّريها</p>
+  </header>
+
+  <div class="house" id="house">
+    <span class="chimney"><i class="smoke s1"></i><i class="smoke s2"></i><i class="smoke s3"></i></span>
+    <div class="roof" id="roof">
+      <span class="roof-sign" id="roof-sign">بيتنا 💗</span>
+    </div>
+    <div class="floors" id="floors"></div>
+    <div class="ground"><span>🌳</span><span>🌷</span><span class="path"></span><span>🌹</span><span>🌳</span></div>
+  </div>
+
+  <div class="counter">نوّرتِ <b id="lit-count">0</b> من <b id="room-total">6</b> أوض</div>
+
+  <section class="panel" id="panel" aria-live="polite"></section>
+
+  <button class="reset" id="reset" type="button">اطفي الأنوار</button>
+  <p class="footer">مازن — أبو ليلي 🌙</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
